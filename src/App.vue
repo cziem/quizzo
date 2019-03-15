@@ -1,15 +1,18 @@
 <template>
   <div class="app">
     <app-header></app-header>
+    <app-quiz></app-quiz>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Quiz from "./components/Quiz.vue";
 
 export default {
   components: {
-    "app-header": Header
+    "app-header": Header,
+    "app-quiz": Quiz
   },
 
   data: function() {
